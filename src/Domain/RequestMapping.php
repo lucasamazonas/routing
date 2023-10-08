@@ -11,12 +11,19 @@ class RequestMapping
 
     protected string $methodOriginClassAnnotation;
 
+    protected string $prefix;
+
     public function __construct(
-        protected string         $path = "",
-        protected ?RequestMethod $method = null,
-        protected string         $name = "",
+        public readonly string         $path = "",
+        public readonly ?RequestMethod $method = null,
+        public readonly string         $name = "",
     )
     {
+    }
+
+    public function setPrefix(string $prefix): void
+    {
+        $this->prefix = $prefix;
     }
 
     public function getOriginClassAnnotation(): string

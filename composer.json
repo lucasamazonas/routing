@@ -2,16 +2,17 @@
     "name": "routing/routing",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "lucasamazonas",
-            "email": "lucassilvaamazonas@gmail.com"
-        }
-    ],
+    "author": {
+        "name": "lucasamazonas",
+        "email": "lucassilvaamazonas@gmail.com"
+    },
     "autoload": {
         "psr-4": {
             "LyzFramework\\Routing\\": "src/"
-        }
+        },
+        "files": [
+            "src/Helpers/helpers.php"
+        ]
     },
     "require": {
         "php": "8.2"

@@ -1,6 +1,6 @@
 <?php
 
-namespace LyzFramework\Routing\Examples;
+namespace LyzFramework\Routing\Examples\A;
 
 use LyzFramework\Routing\Domain\DeleteMapping;
 use LyzFramework\Routing\Domain\GetMapping;
