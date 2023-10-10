@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace LyzFramework\Routing\Domain;
 
 use Attribute;

@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace LyzFramework\Routing\Examples\A;
 
 use LyzFramework\Routing\Domain\DeleteMapping;
